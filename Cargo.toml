@@ -1,0 +1,13 @@
+[package]
+name = "garde-poc-validator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+garde = "0.10.0"
+regex = "1.7.3"
+
+[dev-dependencies]
+lazy-regex = "2.5.0"
